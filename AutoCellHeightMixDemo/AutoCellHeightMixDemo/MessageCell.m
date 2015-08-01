@@ -22,16 +22,6 @@
 
 @implementation MessageCell
 
-
-- (void)didMoveToWindow {
-    [super didMoveToWindow];
-}
-
-- (void)layoutSubviews {
-    [super layoutSubviews];
-    self.contentImageView.frame = _message.contentImageFrame;
-}
-
 - (UIImageView *)contentImageView {
     if (!_contentImageView) {
         _contentImageView = [[UIImageView alloc] init];
