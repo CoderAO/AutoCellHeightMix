@@ -26,7 +26,6 @@
     if (!_contentImageView) {
         _contentImageView = [[UIImageView alloc] init];
         [self.contentView addSubview:_contentImageView];
-
     }
     return _contentImageView;
 }
