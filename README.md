@@ -1,0 +1,5 @@
+## AutoCellHeightMix
+AutoLayout与frame结合计算cell高度
+
+使用AutoLayout进行cell布局,利用Frame计算cell高度
+并使用模型属性对第一次计算的cell高度进行缓存
